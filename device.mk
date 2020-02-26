@@ -29,9 +29,6 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
